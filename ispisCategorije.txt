@@ -1,0 +1,1 @@
+echo "SELECT product.id,product.categories_id,product.product_name,product.product_price,product.product_qty,product.prodselect p.id,p.product_name,p.product_qty,p.product_image,p.short_desc,p.status,c.categories_name from product p join categories c on p.categories_id = c.id";
